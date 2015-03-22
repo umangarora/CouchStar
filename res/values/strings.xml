@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CouchStar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_info">Info</string>
+    <string name="title_activity_searchres">Searchres</string>
+    
+    
+    
+    <string name="search_title">search_title</string>
+<string name="search_hint">search_hint</string>
+    <string-array name="search1">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+    </string-array>
+
+    <string name="title_activity_my_shows">MyShows</string>
+
+</resources>

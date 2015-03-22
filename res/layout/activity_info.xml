@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b9"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/b2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="34dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="INFORMATION"
+        android:textColor="#ED1C24" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:textSize="20dp"
+        android:text="The big bang theory" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="250dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="33dp"
+        android:background="@drawable/b8"
+        android:text="This refers to the show information bla bla bla" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@+id/button4"
+        android:text="Top rating 8.6 Current rating 8.6" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignLeft="@+id/textView2"
+        android:background="@drawable/b4"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@+id/textView3"
+        android:background="@drawable/b3" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/button5"
+        android:background="@drawable/b5" />
+
+    <Button
+        android:id="@+id/button5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_marginRight="58dp"
+        android:background="@drawable/b7" />
+
+</RelativeLayout>

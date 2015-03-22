@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/b9"
+    tools:context="com.example.couchstar.Searchres" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="26dp"
+        android:text="SEARCH RESULTS"
+        android:textColor="#ED1C24" />
+    
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/b2" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="21dp"
+        android:layout_toRightOf="@+id/button1"
+        
+         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="65dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="The big bang theory Rating 8.9" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/b5" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:entries="@array/search1"
+        android:layout_marginTop="22dp" >
+    </ListView>
+
+</RelativeLayout>
