@@ -247,8 +247,9 @@ int drawable couchstar 0x7f02005f
 int drawable ic_launcher 0x7f020060
 int drawable ic_search 0x7f020061
 int drawable picture1 0x7f020062
-int drawable splash 0x7f020063
-int drawable star 0x7f020064
+int drawable ppt 0x7f020063
+int drawable splash 0x7f020064
+int drawable star 0x7f020065
 int id action_bar 0x7f06001c
 int id action_bar_activity_content 0x7f060015
 int id action_bar_container 0x7f06001b
@@ -380,6 +381,7 @@ int string action_settings 0x7f0b000f
 int string app_name 0x7f0b000d
 int string hello_world 0x7f0b000e
 int string search_hint 0x7f0b0013
+int string search_products_ 0x7f0b0015
 int string search_title 0x7f0b0012
 int string title_activity_info 0x7f0b0010
 int string title_activity_my_shows 0x7f0b0014

@@ -21,4 +21,6 @@
 
     <string name="title_activity_my_shows">MyShows</string>
 
+    <string name="search_products_">Search products..</string>
+
 </resources>

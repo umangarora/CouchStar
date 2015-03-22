@@ -1092,8 +1092,9 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020060;
         public static final int ic_search=0x7f020061;
         public static final int picture1=0x7f020062;
-        public static final int splash=0x7f020063;
-        public static final int star=0x7f020064;
+        public static final int ppt=0x7f020063;
+        public static final int splash=0x7f020064;
+        public static final int star=0x7f020065;
     }
     public static final class id {
         public static final int action_bar=0x7f06001c;
@@ -1284,6 +1285,7 @@ containing a value of this type.
         public static final int app_name=0x7f0b000d;
         public static final int hello_world=0x7f0b000e;
         public static final int search_hint=0x7f0b0013;
+        public static final int search_products_=0x7f0b0015;
         public static final int search_title=0x7f0b0012;
         public static final int title_activity_info=0x7f0b0010;
         public static final int title_activity_my_shows=0x7f0b0014;
